@@ -8,7 +8,7 @@ namespace Frameworks.Api.Controllers
     /// <summary>
     /// Frameworks controller
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("api/frameworks")]
     public class FrameworksController : Controller
     {
         private readonly IFrameworkService _frameworkService;

@@ -8,15 +8,15 @@ namespace Frameworks.Api.Controllers
     /// <summary>
     /// Programming languages controller
     /// </summary>
-    [Route("api/[controller]")]
-    public class ProgrammingLanguageController : Controller
+    [Route("api/programming-languages")]
+    public class ProgrammingLanguagesController : Controller
     {
         private readonly IProgrammingLanguageService _programmingLanguageService;
 
         /// <summary>
         /// Programming languages controller constructor
         /// </summary>
-        public ProgrammingLanguageController(IProgrammingLanguageService programmingLanguageService)
+        public ProgrammingLanguagesController(IProgrammingLanguageService programmingLanguageService)
             :base()
         {
             _programmingLanguageService = programmingLanguageService;
